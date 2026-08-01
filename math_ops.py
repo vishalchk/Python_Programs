@@ -20,3 +20,6 @@ def modulus(a, b):
 
 def square_root(a):
     return math.sqrt(a)
+
+def factorial(a):
+    return math.factorial(a)
