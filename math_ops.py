@@ -31,3 +31,7 @@ def is_prime(a):
         if a % i == 0:
             return False
     return True
+
+def reverse_number(a):
+    sign = -1 if a < 0 else 1
+    return sign * int(str(abs(a))[::-1])
