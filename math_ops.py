@@ -38,3 +38,6 @@ def reverse_number(a):
 
 def is_palindrome(a):
     return str(a) == str(a)[::-1]
+
+def is_anagram(a, b):
+    return sorted(str(a)) == sorted(str(b))
