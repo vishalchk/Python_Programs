@@ -1,4 +1,4 @@
-from math_ops import add_numbers, subtract_numbers, multiply_numbers, divide_numbers, power, modulus, square_root, factorial, is_prime, reverse_number
+from math_ops import add_numbers, subtract_numbers, multiply_numbers, divide_numbers, power, modulus, square_root, factorial, is_prime, reverse_number, is_palindrome
 
 print("1:", "Hello World!")
 print("2:", "Vishal Chauhan")
@@ -23,3 +23,4 @@ print("13:", modulus(10, 3))
 print("14:", square_root(16))
 print("15:", factorial(5))
 print("16:", is_prime(7))
+print("17:", is_palindrome(121))

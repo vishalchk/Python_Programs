@@ -35,3 +35,6 @@ def is_prime(a):
 def reverse_number(a):
     sign = -1 if a < 0 else 1
     return sign * int(str(abs(a))[::-1])
+
+def is_palindrome(a):
+    return str(a) == str(a)[::-1]
