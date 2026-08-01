@@ -1,4 +1,5 @@
-from math_ops import add_numbers, subtract_numbers, multiply_numbers, divide_numbers, power, modulus, square_root, factorial, is_prime, reverse_number, is_palindrome, is_anagram, is_string_palindrome
+from math_ops import add_numbers, subtract_numbers, multiply_numbers, divide_numbers, power, modulus, square_root, factorial, is_prime, reverse_number, is_palindrome, is_anagram
+from string_ops import is_string_palindrome
 
 print("1:", "Hello World!")
 print("2:", "Vishal Chauhan")
