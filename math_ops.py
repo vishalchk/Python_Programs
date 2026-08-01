@@ -41,3 +41,7 @@ def is_palindrome(a):
 
 def is_anagram(a, b):
     return sorted(str(a)) == sorted(str(b))
+
+def is_string_palindrome(s):
+    cleaned = "".join(ch.lower() for ch in s if ch.isalnum())
+    return cleaned == cleaned[::-1]
