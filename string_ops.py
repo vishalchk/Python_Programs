@@ -1,3 +1,6 @@
 def is_string_palindrome(s):
     cleaned = "".join(ch.lower() for ch in s if ch.isalnum())
     return cleaned == cleaned[::-1]
+
+def reverse_string(s):
+    return s[::-1]
