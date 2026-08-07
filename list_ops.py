@@ -3,3 +3,6 @@ def find_max(numbers):
 
 def find_min(numbers):
     return min(numbers)
+
+def sum_list(numbers):
+    return sum(numbers)
