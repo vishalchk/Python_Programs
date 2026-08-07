@@ -6,3 +6,6 @@ def find_min(numbers):
 
 def sum_list(numbers):
     return sum(numbers)
+
+def remove_duplicates(numbers):
+    return list(dict.fromkeys(numbers))
