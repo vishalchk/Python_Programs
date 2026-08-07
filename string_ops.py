@@ -22,3 +22,6 @@ def count_lowercase(s):
 
 def remove_whitespace(s):
     return "".join(s.split())
+
+def trim_string(s):
+    return s.strip()
