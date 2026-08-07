@@ -25,3 +25,6 @@ def remove_whitespace(s):
 
 def trim_string(s):
     return s.strip()
+
+def capitalize_words(s):
+    return " ".join(word.capitalize() for word in s.split())
