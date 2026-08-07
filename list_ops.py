@@ -9,3 +9,6 @@ def sum_list(numbers):
 
 def remove_duplicates(numbers):
     return list(dict.fromkeys(numbers))
+
+def sort_list(numbers):
+    return sorted(numbers)
