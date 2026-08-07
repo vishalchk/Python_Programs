@@ -16,3 +16,6 @@ def count_consonants(s):
 
 def count_uppercase(s):
     return sum(1 for ch in s if ch.isupper())
+
+def count_lowercase(s):
+    return sum(1 for ch in s if ch.islower())
