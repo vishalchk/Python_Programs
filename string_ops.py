@@ -10,3 +10,6 @@ def count_vowels(s):
 
 def count_words(s):
     return len(s.split())
+
+def count_consonants(s):
+    return sum(1 for ch in s.lower() if ch.isalpha() and ch not in "aeiou")
