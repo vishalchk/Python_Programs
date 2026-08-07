@@ -19,3 +19,6 @@ def count_uppercase(s):
 
 def count_lowercase(s):
     return sum(1 for ch in s if ch.islower())
+
+def remove_whitespace(s):
+    return "".join(s.split())

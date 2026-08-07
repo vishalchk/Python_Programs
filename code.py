@@ -1,5 +1,5 @@
 from math_ops import add_numbers, subtract_numbers, multiply_numbers, divide_numbers, power, modulus, square_root, factorial, is_prime, reverse_number, is_palindrome, is_anagram
-from string_ops import is_string_palindrome, reverse_string, count_vowels, count_words, count_consonants, count_uppercase, count_lowercase
+from string_ops import is_string_palindrome, reverse_string, count_vowels, count_words, count_consonants, count_uppercase, count_lowercase, remove_whitespace
 
 print("1:", "Hello World!")
 print("2:", "Vishal Chauhan")
@@ -33,3 +33,4 @@ print("22:", count_words("Learning Python is fun"))
 print("23:", count_consonants("Vishal Chauhan"))
 print("24:", count_uppercase("Vishal Chauhan"))
 print("25:", count_lowercase("Vishal Chauhan"))
+print("26:", remove_whitespace(" V i s h a l "))
