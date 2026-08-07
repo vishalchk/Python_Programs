@@ -2,7 +2,7 @@
 
 from math_ops import add_numbers, subtract_numbers, multiply_numbers, divide_numbers, power, modulus, square_root, factorial, is_prime, reverse_number, is_palindrome, is_anagram
 from string_ops import is_string_palindrome, reverse_string, count_vowels, count_words, count_consonants, count_uppercase, count_lowercase, remove_whitespace, trim_string, capitalize_words
-from list_ops import find_max, find_min, sum_list, remove_duplicates, sort_list
+from list_ops import find_max, find_min, sum_list, remove_duplicates, sort_list, second_largest
 
 print("1:", "Hello World!")
 print("2:", "Vishal Chauhan")
@@ -44,3 +44,4 @@ print("30:", find_min([3, 7, 1, 100, 4]))
 print("31:", sum_list([3, 7, 1, 100, 4]))
 print("32:", remove_duplicates([3, 7, 3, 1, 7, 4]))
 print("33:", sort_list([3, 7, 1, 100, 4]))
+print("34:", second_largest([3, 7, 1, 100, 4]))
